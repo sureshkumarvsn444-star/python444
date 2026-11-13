@@ -1,0 +1,78 @@
+''' if condition task '''
+
+print("Task_1 - Print Positive if a number is greater than 0")
+
+i=10
+if i >0:
+    print (i)
+
+
+
+print("Task_2 - Print Adult if age is 18 or more.")   
+age = int(input("Enter your age: "))
+if age >= 18:
+    print("Adult")
+
+
+
+print("Task_3 - Print a message if a number is divisible by 7")
+num = int(input("Enter a number: "))
+
+if num % 7 == 0:
+    print("Divisible by 7")
+
+
+
+print("Task_4 - Eligible for discount if a bill amount is more than 1000")
+bill_amount = float(input("Enter bill amount: "))
+
+if bill_amount > 1000:
+    print("Eligible for discount")
+
+
+
+print("Task_5 - Print a message if a given character is a vowel.")
+char = input("Enter a character: ")
+
+if char.lower() in "aeiou":
+    print("It is a Vowel")
+
+
+
+print("Task_6 - print a message if a year is divisible by 4 python")
+year = int(input("Enter a year: "))
+
+if year % 4 == 0:
+    print("Year is divisible by 4")
+
+
+
+print("Task_7 - Print a message if a number is a two-digit number")
+num = int(input("Enter a number: "))
+
+if 10 <= abs(num) <= 99:
+    print("Two-digit number")
+
+
+
+print("Task_8 - Print a message if a given string is empty")
+text = input("Enter a string: ")
+
+if text == "":
+    print("String is empty")   
+
+
+
+print("Task_9 - Print a message if a number lies between 1 and 100 inclusive" )
+num = int(input("Enter a number: "))
+
+if 1 <= num <= 100:
+    print("Number is between 1 and 100")
+
+
+
+print("Task_10 - Print a message if a given character is an uppercase letter")
+char = input("Enter a character: ")
+
+if char.isupper():
+    print("Uppercase letter")
