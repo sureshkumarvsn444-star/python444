@@ -1,0 +1,64 @@
+print("Task_1 - Access items using positive and negative indexing")
+fruits = ["Apple", "Banana", "Mango", "Orange", "Grapes"]
+
+# Positive indexing
+print("Positive Indexing:")
+print(fruits[0])
+print(fruits[1])
+print(fruits[2])
+print(fruits[3])
+print(fruits[4])
+
+# Negative indexing
+print("\nNegative Indexing:")
+print(fruits[-1])
+print(fruits[-2])
+print(fruits[-3])
+print(fruits[-4])
+print(fruits[-5])
+
+print("\n")
+print("Task_2 - Slice a tuple to get the first three and last three items")
+numbers = (10, 20, 30, 40, 50, 60, 70, 80)
+
+# Get first three items
+print("First three items:", numbers[:3])
+
+# Get last three items
+print("Last three items:", numbers[-3:])
+
+print("\n")
+print("task_3 - Create a single-element tuple (watch the comma)")
+# Create a single-element tuple
+my_tuple = (10,)
+
+print("Tuple:", my_tuple)
+print("Data type:", type(my_tuple))
+
+
+print("\n")
+print("Task_4 - Concatenate two tuples and repeat a tuple 3 times")
+# Create two tuples
+tuple1 = (10, 20, 30)
+tuple2 = (40, 50, 60)
+
+# Concatenate two tuples
+result = tuple1 + tuple2
+print("Concatenated Tuple:", result)
+
+# Repeat a tuple 3 times
+repeat = tuple1 * 3
+print("Repeated Tuple:", repeat)
+
+print("\n")
+print("Task_5 - Check whether an element exists in a tuple")
+# Create a tuple
+fruits = ("Apple", "Banana", "Mango", "Orange", "Grapes")
+
+# Check whether an element exists
+search = "Mango"
+
+if search in fruits:
+    print(search, "exists in the tuple")
+else:
+    print(search, "does not exist in the tuple")
