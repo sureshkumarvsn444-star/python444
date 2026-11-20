@@ -1,0 +1,85 @@
+
+print("Task_1 - Create a list of 10 numbers and print the first, last, and middle elements.")
+# Create a list of 10 numbers
+numbers = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+
+# Print first element
+print("First element:", numbers[0])
+
+# Print last element
+print("Last element:", numbers[-1])
+
+# Print middle elements
+print("Middle elements:", numbers[4:6])
+
+
+
+print("\n")
+print("Task_2 - Add an element at the end, at the beginning, and at index 3")
+numbers = [10, 20, 30, 40, 50]
+
+# Add element at the end
+numbers.append(60)
+print("After adding at end:", numbers)
+
+# Add element at the beginning
+numbers.insert(0, 5)
+print("After adding at beginning:", numbers)
+
+# Add element at index 3
+numbers.insert(3, 25)
+print("After adding at index 3:", numbers)
+
+
+print("\n")
+print("Task_3 - Remove an element by value, by index, and remove the last item.")
+numbers = [10, 20, 30, 40, 50, 60]
+
+# Remove an element by value
+numbers.remove(30)
+print("After removing value 30:", numbers)
+
+# Remove an element by index
+numbers.pop(2)
+print("After removing index 2:", numbers)
+
+# Remove the last item
+numbers.pop()
+print("After removing last item:", numbers)
+
+print("\n")
+print("Task_4 - Find the sum, minimum, maximum, and average of a list of numbers")
+numbers = [10, 20, 30, 40, 50]
+
+# Find sum
+total = sum(numbers)
+print("Sum:", total)
+
+# Find minimum value
+minimum = min(numbers)
+print("Minimum:", minimum)
+
+# Find maximum value
+maximum = max(numbers)
+print("Maximum:", maximum)
+
+# Find average
+average = total / len(numbers)
+print("Average:", average)
+
+print("\n")
+print("Task_5 - Reverse a list in three ways (reverse(), slicing, reversed())")
+numbers = [10, 20, 30, 40, 50]
+
+# Method 1: Using reverse()
+a = numbers.copy()
+a.reverse()
+print("Using reverse():", a)
+
+# Method 2: Using slicing
+b = numbers[::-1]
+print("Using slicing:", b)
+
+# Method 3: Using reversed()
+c = list(reversed(numbers))
+print("Using reversed():", c)
